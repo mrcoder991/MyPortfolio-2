@@ -141,20 +141,26 @@ span{
     font-size: 1.5em;
 }
 .span1{
-    color:#ED4A8D ;
+    color:#ED4A8D !important ;
 }
 
 .about{
     width: 100%;
     min-height: 100vh;
-    background-color: black;
-    color: #fff;
+    background-color: #1C1527;
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
     align-items: center;
 }
 
+.about h2{
+  color: #f8f6f4;
+}
+
+.about p{
+  color: #c5844e;
+}
  
 
 .about .text{
